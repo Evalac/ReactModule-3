@@ -7,6 +7,7 @@ import { RestApi } from './RestApi/RestApi';
 import { VideoList } from './VideoList/VideoList';
 import { Player } from './Player/Player';
 import { Reader } from './Reader/Reader';
+import { PokemonMainApp } from './Pokemon/PokemonMainApp';
 
 class App extends Component {
   state = {
@@ -21,9 +22,10 @@ class App extends Component {
     return (
       <>
         {/* <RestApi /> */}
+        <PokemonMainApp />
         {/* <VideoList videos={videos} selectVideo={this.selectVideo} />
         <Player videoLink={this.state.selectedLink} /> */}
-        <Reader content={content} />
+        {/* <Reader content={content} /> */}
       </>
     );
   }
