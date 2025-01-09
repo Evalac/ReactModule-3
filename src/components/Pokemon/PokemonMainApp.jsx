@@ -4,7 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import { Component } from 'react';
 
 import { PokemonForm } from './PokemonForm/PokemonForm';
-import { PokemonInfo } from './PkemonInfo/PokemonInfo';
+import { PokemonInfo } from './PokemonInfo/PokemonInfo';
 
 class PokemonMainApp extends Component {
   state = {
