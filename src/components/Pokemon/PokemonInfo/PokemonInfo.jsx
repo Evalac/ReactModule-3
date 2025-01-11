@@ -48,7 +48,7 @@ class PokemonInfo extends Component {
     }
 
     if (status === 'pending') {
-      return <DownloadComponent />;
+      return <DownloadComponent pokemonName={this.props.pokemonName} />;
     }
 
     if (status === 'rejected') {
